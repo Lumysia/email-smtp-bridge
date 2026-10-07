@@ -1,0 +1,18 @@
+{
+  "name": "email-smtp-bridge",
+  "main": "src/index.ts",
+  "workers_dev": false,
+  "compatibility_date": "2026-10-01",
+  "vpc_networks": [
+    {
+      "binding": "VPC",
+      "tunnel_id": "b6d3a397-1247-474d-ab46-af8f10756301"
+    }
+  ],
+  "vars": {
+    "SMTP_ADDRESS": "stalwart:25"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
